@@ -14,11 +14,11 @@ rule Ransomware_Hellcat_Linux_1 {
 		$s2 = "How to recover? Download the Qtox chat:https://qtox.github.io and contact us" fullword ascii
 		$s3 = "<cmd>touch a</cmd>" fullword ascii
 		
-		//Function names:
+		// Function names:
 		$s4 = "cry_thread" fullword ascii
 		$s5 = "walk_thread" fullword ascii
 		
-		//Other:
+		// Other:
 		$s6 = "Readme.%s.txt" fullword ascii
 		$s7 = "Encrypted->%s" fullword ascii
 		$s8 = "/dev/urandom" fullword ascii
